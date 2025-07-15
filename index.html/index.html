@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoCafé</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('fondo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2e2e2e;
+    }
+    header {
+      background-color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    header img {
+      height: 50px;
+    }
+    h2 {
+      color: #4e7031;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+    .galeria img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .qr {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+    }
+    #contacto {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    #contacto p {
+      margin: 10px 0;
+    }
+    a {
+      color: #4e7031;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="EcoCafé logo">
+  </header>
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="galeria">
+      <img src="imagenes/galeria1.jpg" alt="café 1">
+      <img src="imagenes/galeria2.jpg" alt="Café 2">
+      <img src="imagenes/galeria3.jpg" alt="Café 3">
+    </div>
+  </section>
+  <section id="qr">
+    <h2>Escanea nuestro QR</h2>
+    <img src="imagenes/qr.png" alt="Código QR" class="qr">
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> [5 oriente, viña del mar, chile]</p>
+    <p><strong>Teléfono:</strong> [+569 12345678]</p>
+    <p><strong>Horario:</strong> [lunes a sabados, 10:00 a las 18:00 hrs]</p>
+    <p><strong>Email:</strong> [Ecocafe_oficial@gmail.com]</p>
+    <p><strong>Instagram:</strong> <a href="#" target="_blank">@Ecocafe_oficial</a></p>
+  </section>
+</body>
+</html>
